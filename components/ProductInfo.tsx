@@ -103,7 +103,7 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
       >
         Add To Cart
       </button>
-      <a href={productInfo.description}>
+      <a target="_blank" href={productInfo.description}>
           <button
         className="outline text-base-bold py-3 rounded-lg hover:bg-black hover:text-white"
       >
