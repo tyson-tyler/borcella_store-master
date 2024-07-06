@@ -3,7 +3,7 @@
 import { useState } from "react";
 import HeartFavorite from "./HeartFavorite";
 import { MinusCircle, PlusCircle } from "lucide-react";
-import {Link} from "next/link"
+import Link from "next/link";
 
 import useCart from "@/lib/hooks/useCart";
 
