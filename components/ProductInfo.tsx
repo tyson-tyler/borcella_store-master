@@ -102,6 +102,13 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
       >
         Add To Cart
       </button>
+      <Link href={productInfo.description}>
+          <button
+        className="outline text-base-bold py-3 rounded-lg hover:bg-black hover:text-white"
+      >
+        Buy Now
+      </button>
+        </Link>
     </div>
   );
 };
